@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.scrolled-nav{
+    background: rgb(255, 198, 0);
+    padding-bottom: 15px;
+}
+
+#nav a.navbar-brand{
+    font-size: 22px;
+    font-weight: 800;
+}
+#nav a.nav-link{
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+#nav a.nav-link:hover{
+    font-weight: 700;
+    border-bottom: 2px solid white;
+}
+#nav button span{
+    color: white !important;
+}
